@@ -16,6 +16,7 @@
 		7C4F3F2C1382D6CC00C8DC2A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C4F3F2A1382D6CC00C8DC2A /* MainWindow.xib */; };
 		7C4F3F2F1382D6CC00C8DC2A /* ViewBasedAppTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4F3F2E1382D6CC00C8DC2A /* ViewBasedAppTestViewController.m */; };
 		7C4F3F321382D6CC00C8DC2A /* ViewBasedAppTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C4F3F301382D6CC00C8DC2A /* ViewBasedAppTestViewController.xib */; };
+		7C4F3F411382DA1C00C8DC2A /* Test2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C4F3F401382DA1C00C8DC2A /* Test2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +24,17 @@
 		7C4F3F181382D6CC00C8DC2A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7C4F3F1A1382D6CC00C8DC2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7C4F3F1C1382D6CC00C8DC2A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7C4F3F201382D6CC00C8DC2A /* ViewBasedAppTest-Info.plist */ = {isa = PBXFileReference; path = "ViewBasedAppTest-Info.plist"; sourceTree = "<group>"; };
+		7C4F3F201382D6CC00C8DC2A /* ViewBasedAppTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewBasedAppTest-Info.plist"; sourceTree = "<group>"; };
 		7C4F3F221382D6CC00C8DC2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7C4F3F241382D6CC00C8DC2A /* ViewBasedAppTest-Prefix.pch */ = {isa = PBXFileReference; path = "ViewBasedAppTest-Prefix.pch"; sourceTree = "<group>"; };
+		7C4F3F241382D6CC00C8DC2A /* ViewBasedAppTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewBasedAppTest-Prefix.pch"; sourceTree = "<group>"; };
 		7C4F3F251382D6CC00C8DC2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7C4F3F271382D6CC00C8DC2A /* ViewBasedAppTestAppDelegate.h */ = {isa = PBXFileReference; path = ViewBasedAppTestAppDelegate.h; sourceTree = "<group>"; };
+		7C4F3F271382D6CC00C8DC2A /* ViewBasedAppTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewBasedAppTestAppDelegate.h; sourceTree = "<group>"; };
 		7C4F3F281382D6CC00C8DC2A /* ViewBasedAppTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewBasedAppTestAppDelegate.m; sourceTree = "<group>"; };
 		7C4F3F2B1382D6CC00C8DC2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		7C4F3F2D1382D6CC00C8DC2A /* ViewBasedAppTestViewController.h */ = {isa = PBXFileReference; path = ViewBasedAppTestViewController.h; sourceTree = "<group>"; };
+		7C4F3F2D1382D6CC00C8DC2A /* ViewBasedAppTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewBasedAppTestViewController.h; sourceTree = "<group>"; };
 		7C4F3F2E1382D6CC00C8DC2A /* ViewBasedAppTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewBasedAppTestViewController.m; sourceTree = "<group>"; };
 		7C4F3F311382D6CC00C8DC2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewBasedAppTestViewController.xib; sourceTree = "<group>"; };
+		7C4F3F401382DA1C00C8DC2A /* Test2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Test2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		7C4F3F091382D6CC00C8DC2A = {
 			isa = PBXGroup;
 			children = (
+				7C4F3F401382DA1C00C8DC2A /* Test2.png */,
 				7C4F3F1E1382D6CC00C8DC2A /* ViewBasedAppTest */,
 				7C4F3F171382D6CC00C8DC2A /* Frameworks */,
 				7C4F3F151382D6CC00C8DC2A /* Products */,
@@ -151,6 +154,7 @@
 				7C4F3F231382D6CC00C8DC2A /* InfoPlist.strings in Resources */,
 				7C4F3F2C1382D6CC00C8DC2A /* MainWindow.xib in Resources */,
 				7C4F3F321382D6CC00C8DC2A /* ViewBasedAppTestViewController.xib in Resources */,
+				7C4F3F411382DA1C00C8DC2A /* Test2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

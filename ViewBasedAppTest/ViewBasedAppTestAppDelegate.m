@@ -13,16 +13,25 @@
 @implementation ViewBasedAppTestAppDelegate
 
 
-@synthesize window=_window;
+@synthesize window;
 
-@synthesize viewController=_viewController;
+@synthesize viewController;
+
+@synthesize mainView;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
      
-    self.window.rootViewController = self.viewController;
+    UINavigationController *navController = [[UINavigationController alloc] 
+                                             initWithRootViewController:viewController];
+    navController.view.frame = CGRectMake(0, 0, 320, 460);
+    
+    [mainView addSubview:navController.view];
     [self.window makeKeyAndVisible];
+
+    //self.window.rootViewController = self.viewController;
+    //[self.window makeKeyAndVisible];
     return YES;
 }
 
@@ -67,8 +76,9 @@
 
 - (void)dealloc
 {
-    [_window release];
-    [_viewController release];
+    [mainView release];
+    [window release];
+    [viewController release];
     [super dealloc];
 }
 
